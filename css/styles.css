@@ -25,7 +25,6 @@ font-family: 'Roboto', sans-serif; */
   --back-color: #2f303a;
   --btn-active: #188ce8;
   --team-bg: #f5f4fa;
-  --footer-bg: #2f303a;
 }
 
 body {
@@ -107,6 +106,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--white-color);
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 .footer-bg {
-  background-color: var(--footer-bg);
+  background-color: var(--back-color);
 }
 /* Portfolio page */
 
